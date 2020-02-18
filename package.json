@@ -1,0 +1,22 @@
+{
+    "name": "harvtronix.headspace",
+    "displayName": "Headspace",
+    "publisher": "Harvtronix",
+    "description": "gray theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.42.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Headspace",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Headspace.color-theme.json"
+            }
+        ]
+    }
+}

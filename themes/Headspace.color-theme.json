@@ -92,6 +92,8 @@
         "gitDecoration.deletedResourceForeground": "#f66",
         "gitDecoration.ignoredResourceForeground": "#aaa",
 
+        "gitlens.trailingLineForegroundColor": "#666",
+
         "breadcrumb.background": "#888",
         "breadcrumb.foreground": "#000",
 
@@ -131,8 +133,6 @@
         "button.foreground": "#000",
 
         "selection.background": "#0f07",
-
-        "gitlens.trailingLineForegroundColor": "#444",
 
         "badge.background": "#fff",
         "badge.foreground": "#000",

@@ -21,10 +21,10 @@
         "editor.selectionBackground": "#0f07",
         "editor.selectionHighlightBackground": "#0000",
         "editor.selectionHighlightBorder": "#0f07",
-        "editor.wordHighlightBackground": "#00f2",
-        "editor.wordHighlightBorder": "#0000",
-        "editor.wordHighlightStrongBackground": "#00f2",
-        "editor.wordHighlightStrongBorder": "#000",
+        "editor.wordHighlightBackground": "#0000",
+        "editor.wordHighlightBorder": "#fa0",
+        "editor.wordHighlightStrongBackground": "#0000",
+        "editor.wordHighlightStrongBorder": "#f70",
         "editorBracketMatch.background": "#555",
         "editorBracketMatch.border": "#0000",
 
@@ -38,15 +38,25 @@
         "editorSuggestWidget.highlightForeground": "#eee",
         "editorSuggestWidget.selectedBackground": "#999",
 
-        "dropdown.listBackground": "#ff0000",
+        "dropdown.background": "#888",
+        "dropdown.foreground": "#000",
+        "dropdown.border": "#444",
+        "dropdown.listBackground": "#777",
+
+        "list.activeSelectionBackground": "#999",
+        "list.activeSelectionForeground": "#000",
+        "list.hoverBackground": "#999",
+        "list.inactiveSelectionBackground": "#888",
+        "list.focusBackground": "#999",
+
+        "quickInput.background": "#777",
+        "quickInput.foreground": "#000",
 
         "editorCursor.foreground": "#000",
 
         "editorGutter.addedBackground": "#0f06",
         "editorGutter.deletedBackground": "#f006",
         "editorGutter.modifiedBackground": "#00f6",
-
-        "scrollbarSlider.background": "#fff3",
 
         "editorGutter.background": "#666",
         "editorLineNumber.foreground": "#000",
@@ -75,11 +85,6 @@
 
         "editorGroupHeader.tabsBackground": "#666",
 
-        "list.activeSelectionBackground": "#999",
-        "list.activeSelectionForeground": "#000",
-        "list.hoverBackground": "#999",
-        "list.inactiveSelectionBackground": "#888",
-
         "gitDecoration.modifiedResourceForeground": "#000",
         "gitDecoration.untrackedResourceForeground": "#2d2",
         "gitDecoration.addedResourceForeground": "#000",
@@ -103,7 +108,14 @@
         "input.foreground": "#000",
         "input.border": "#000",
 
-        "minimap.selectionHighlight": "#0f07",
+        "minimap.selectionHighlight": "#0f0a",
+        "minimap.findMatchHighlight": "#0f0a",
+
+        "scrollbarSlider.background": "#fff3",
+
+        "editorOverviewRuler.findMatchForeground": "#0f0a",
+        "editorOverviewRuler.bracketMatchForeground": "#fff",
+        "editorOverviewRuler.wordHighlightForeground": "#fa0",
 
         "peekView.border": "#000",
         "peekViewEditor.background": "#777",
@@ -117,9 +129,6 @@
 
         "button.background": "#999",
         "button.foreground": "#000",
-
-        "quickInput.background": "#777",
-        "quickInput.foreground": "#fff",
 
         "selection.background": "#0f07",
 
@@ -318,7 +327,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#f00"
+                "foreground": "#048"
             }
         },
         {

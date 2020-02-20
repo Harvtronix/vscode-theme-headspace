@@ -302,7 +302,7 @@
                 "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "foreground": "#408"
+                "foreground": "#048"
             }
         },
         {
@@ -506,7 +506,7 @@
                 "source.json meta.structure.dictionary.json support.type.property-name.json"
             ],
             "settings": {
-                "foreground": "#048"
+                "foreground": "#408"
             }
         },
 

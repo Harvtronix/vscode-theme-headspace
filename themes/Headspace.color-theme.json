@@ -7,6 +7,9 @@
         "editor.background": "#777",
         "editor.foreground": "#000",
 
+        "editorWidget.background": "#888",
+        "editorWidget.foreground": "#fff",
+
         "editor.findMatchBackground": "#0f07",
         "editor.findMatchBorder": "#0000",
         "editor.findMatchHighlightBackground": "#0000",
@@ -24,19 +27,38 @@
         "editor.wordHighlightBackground": "#0000",
         "editor.wordHighlightBorder": "#fa0",
         "editor.wordHighlightStrongBackground": "#0000",
-        "editor.wordHighlightStrongBorder": "#f70",
+        "editor.wordHighlightStrongBorder": "#f50",
+
         "editorBracketMatch.background": "#555",
         "editorBracketMatch.border": "#0000",
-
-        "diffEditor.insertedTextBorder": "#0002",
-        "diffEditor.removedTextBorder": "#0002",
-        "diffEditor.insertedTextBackground": "#0f02",
-        "diffEditor.removedTextBackground": "#f002",
 
         "editorSuggestWidget.foreground": "#000",
         "editorSuggestWidget.background": "#888",
         "editorSuggestWidget.highlightForeground": "#eee",
         "editorSuggestWidget.selectedBackground": "#999",
+
+        "editorOverviewRuler.findMatchForeground": "#0f0a",
+        "editorOverviewRuler.bracketMatchForeground": "#fff",
+        "editorOverviewRuler.wordHighlightForeground": "#fa0",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#f50",
+
+        "editorCursor.foreground": "#000",
+
+        "editorGutter.addedBackground": "#0f06",
+        "editorGutter.deletedBackground": "#f006",
+        "editorGutter.modifiedBackground": "#00f6",
+
+        "editorGutter.background": "#666",
+        "editorLineNumber.foreground": "#000",
+
+        "editorGroupHeader.tabsBackground": "#666",
+
+        "editorHoverWidget.background": "#888",
+
+        "diffEditor.insertedTextBorder": "#0002",
+        "diffEditor.removedTextBorder": "#0002",
+        "diffEditor.insertedTextBackground": "#0f02",
+        "diffEditor.removedTextBackground": "#f002",
 
         "dropdown.background": "#888",
         "dropdown.foreground": "#000",
@@ -51,15 +73,6 @@
 
         "quickInput.background": "#777",
         "quickInput.foreground": "#000",
-
-        "editorCursor.foreground": "#000",
-
-        "editorGutter.addedBackground": "#0f06",
-        "editorGutter.deletedBackground": "#f006",
-        "editorGutter.modifiedBackground": "#00f6",
-
-        "editorGutter.background": "#666",
-        "editorLineNumber.foreground": "#000",
 
         "sideBar.background": "#777",
         "sideBar.dropBackground": "#0000",
@@ -83,8 +96,6 @@
         "tab.inactiveBackground": "#666",
         "tab.inactiveForeground": "#000",
 
-        "editorGroupHeader.tabsBackground": "#666",
-
         "gitDecoration.modifiedResourceForeground": "#000",
         "gitDecoration.untrackedResourceForeground": "#2d2",
         "gitDecoration.addedResourceForeground": "#000",
@@ -101,11 +112,6 @@
         "panelTitle.activeForeground": "#fff",
         "panelTitle.inactiveForeground": "#000",
 
-        "editorHoverWidget.background": "#888",
-
-        "editorWidget.background": "#888",
-        "editorWidget.foreground": "#fff",
-
         "input.background": "#888",
         "input.foreground": "#000",
         "input.border": "#000",
@@ -114,10 +120,6 @@
         "minimap.findMatchHighlight": "#0f0a",
 
         "scrollbarSlider.background": "#fff3",
-
-        "editorOverviewRuler.findMatchForeground": "#0f0a",
-        "editorOverviewRuler.bracketMatchForeground": "#fff",
-        "editorOverviewRuler.wordHighlightForeground": "#fa0",
 
         "peekView.border": "#000",
         "peekViewEditor.background": "#777",

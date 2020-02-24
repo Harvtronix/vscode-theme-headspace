@@ -55,8 +55,8 @@
 
         "editorHoverWidget.background": "#888",
 
-        "diffEditor.insertedTextBorder": "#0002",
-        "diffEditor.removedTextBorder": "#0002",
+        "diffEditor.insertedTextBorder": "#0001",
+        "diffEditor.removedTextBorder": "#0001",
         "diffEditor.insertedTextBackground": "#0f02",
         "diffEditor.removedTextBackground": "#f002",
 

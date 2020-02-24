@@ -29,6 +29,8 @@
         "editor.wordHighlightStrongBackground": "#0000",
         "editor.wordHighlightStrongBorder": "#f50",
 
+        "editorIndentGuide.activeBackground": "#fffa",
+
         "editorBracketMatch.background": "#555",
         "editorBracketMatch.border": "#0000",
 

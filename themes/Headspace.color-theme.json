@@ -142,7 +142,10 @@
         "badge.foreground": "#000",
 
         "terminal.background": "#444",
-        "terminal.foreground": "#ccc"
+        "terminal.foreground": "#ccc",
+
+        "inputValidation.warningBackground": "#fa0",
+        "inputValidation.warningBorder": "#fa0"
     },
     "tokenColors": [
         {
@@ -186,14 +189,23 @@
             }
         },
         {
-            "name": "Keyword, Storage",
+            "name": "Keyword, Storage Type",
             "scope": [
                 "keyword",
                 "storage.type",
-                "storage.modifier"
             ],
             "settings": {
                 "foreground": "#008",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Storage Modifier",
+            "scope": [
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#044",
                 "fontStyle": "bold"
             }
         },
@@ -222,7 +234,7 @@
                 "keyword.other.substitution"
             ],
             "settings": {
-                "foreground": "#000",
+                "foreground": "#044",
                 // "fontStyle": "bold"
             }
         },
@@ -244,6 +256,36 @@
             ],
             "settings": {
                 "foreground": "#000"
+            }
+        },
+        {
+            "name": "Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "constant.other.symbol",
+                "constant.other.key",
+                "entity.other.inherited-class",
+                "markup.heading",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+            ],
+            "settings": {
+                "foreground": "#ace"
+            }
+        },
+        {
+            "name": "Class, Support",
+            "scope": [
+                "entity.name",
+                "support.type",
+                "support.class",
+                "support.orther.namespace.use.php",
+                "meta.use.php",
+                "support.other.namespace.php",
+                "markup.changed.git_gutter",
+                "support.type.sys-types"
+            ],
+            "settings": {
+                "foreground": "#ace"
             }
         },
         {
@@ -286,40 +328,26 @@
                 "support.constant",
                 "constant.character",
                 "constant.escape",
-                "variable.parameter",
                 "keyword.other.unit",
                 "keyword.other"
+            ],
+            "settings": {
+                "foreground": "#bbb"
+            }
+        },
+        {
+            "name": "Variable Parameter",
+            "scope": [
+                "variable.parameter",
             ],
             "settings": {
                 "foreground": "#000"
             }
         },
         {
-            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "name": "String",
             "scope": [
                 "string",
-                "constant.other.symbol",
-                "constant.other.key",
-                "entity.other.inherited-class",
-                "markup.heading",
-                "markup.inserted.git_gutter",
-                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-            ],
-            "settings": {
-                "foreground": "#048"
-            }
-        },
-        {
-            "name": "Class, Support",
-            "scope": [
-                "entity.name",
-                "support.type",
-                "support.class",
-                "support.orther.namespace.use.php",
-                "meta.use.php",
-                "support.other.namespace.php",
-                "markup.changed.git_gutter",
-                "support.type.sys-types"
             ],
             "settings": {
                 "foreground": "#048"
@@ -366,7 +394,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#808"
+                "foreground": "#044"
             }
         },
         {
@@ -376,16 +404,6 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#82AAFF"
-            }
-        },
-        {
-            "name": "meta.method.js",
-            "scope": [
-                "meta.class-method.js entity.name.function.js",
-                "variable.function.constructor"
-            ],
-            "settings": {
                 "foreground": "#82AAFF"
             }
         },
@@ -521,7 +539,7 @@
                 "punctuation.definition.list_item.markdown"
             ],
             "settings": {
-                "foreground": "#EEFFFF"
+                "foreground": "#000"
             }
         },
         {
@@ -550,7 +568,7 @@
                 "markup.heading.markdown punctuation.definition.heading.markdown"
             ],
             "settings": {
-                "foreground": "#C3E88D"
+                "foreground": "#408"
             }
         },
         {
@@ -623,7 +641,7 @@
                 "string.other.link.title.markdown"
             ],
             "settings": {
-                "foreground": "#82AAFF"
+                "foreground": "#048"
             }
         },
         {
@@ -708,6 +726,21 @@
             ],
             "settings": {
                 "foreground": "#EEFFFF"
+            }
+        },
+
+
+        //
+        // Java
+        //
+        {
+            "name": "Import",
+            "scope": [
+                "storage.modifier.import.java"
+            ],
+            "settings": {
+                "foreground": "#000",
+                "fontStyle": ""
             }
         }
     ]

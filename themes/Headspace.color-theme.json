@@ -58,7 +58,9 @@
         "editorHoverWidget.border": "#444",
         "editorHoverWidget.background": "#777",
 
-        "listFilterWidget.background": "#ff0000",
+        "listFilterWidget.background": "#eee",
+        "listFilterWidget.outline": "#0000",
+        "list.filterMatchBorder": "#eee",
 
         "diffEditor.insertedTextBorder": "#0001",
         "diffEditor.removedTextBorder": "#0001",
@@ -151,8 +153,8 @@
         "inputValidation.warningBackground": "#fa0",
         "inputValidation.warningBorder": "#fa0",
 
-        "textLink.foreground": "#048",
-        "notificationLink.foreground": "#048"
+        "textLink.foreground": "#5cadff",
+        "notificationLink.foreground": "#5cadff"
     },
     "tokenColors": [
         {

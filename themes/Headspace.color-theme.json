@@ -165,8 +165,7 @@
                 "entity.name.tag"
             ],
             "settings": {
-                "foreground": "#006",
-                // "foreground": "#043"
+                "foreground": "#007"
             }
         },
         {
@@ -179,7 +178,8 @@
             "scope": [
                 "keyword",
                 "storage",
-                "support"
+                "support",
+                "meta.function-call"
             ],
             "settings": {
                 "foreground": "#043"
@@ -226,19 +226,16 @@
             }
         },
         {
-            "scope": "variable.parameter",
-            "settings": {
-                "foreground": "#A0C7FF"
-            }
-        },
-        {
             "scope": "variable.language",
             "settings": {
                 "foreground": "#1aff79"
             }
         },
         {
-            "scope": "variable.other.object",
+            "scope": [
+                "variable.other.object",
+                "variable.parameter"
+            ],
             "settings": {
                 "foreground": "#404"
             }

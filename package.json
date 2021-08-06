@@ -14,7 +14,7 @@
         "themes": [
             {
                 "label": "Headspace",
-                "uiTheme": "vs",
+                "uiTheme": "vs-dark",
                 "path": "./themes/Headspace.color-theme.json"
             }
         ]

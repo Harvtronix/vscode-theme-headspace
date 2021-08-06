@@ -172,6 +172,7 @@
             "scope": [
                 "meta",
                 "variable.other",
+                "variable.language",
                 "entity.name.tag"
             ],
             "settings": {
@@ -223,12 +224,6 @@
             ],
             "settings": {
                 "foreground": "#222"
-            }
-        },
-        {
-            "scope": "variable.language",
-            "settings": {
-                "foreground": "#1aff79"
             }
         },
         {

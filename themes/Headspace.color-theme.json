@@ -204,7 +204,6 @@
             "scope": [
                 "string",
                 "punctuation.definition.string",
-                "constant"
             ],
             "settings": {
                 "foreground": "#308"
@@ -233,6 +232,7 @@
         },
         {
             "scope": [
+                "constant",
                 "markup.deleted",
                 "variable.other.object",
                 // "variable.parameter"

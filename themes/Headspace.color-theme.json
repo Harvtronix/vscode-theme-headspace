@@ -183,7 +183,9 @@
                 "markup.inserted",
                 "storage",
                 "support",
-                "meta.function-call"
+                "meta.function-call",
+                "punctuation.definition.template-expression",
+                "constant.character.format"
             ],
             "settings": {
                 "foreground": "#043"

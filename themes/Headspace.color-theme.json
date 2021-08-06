@@ -80,7 +80,7 @@
         "activityBar.foreground": "#001",
         "activityBar.activeBackground": "#0000",
         "activityBar.activeBorder": "#fff",
-        "activityBar.inactiveForeground": "#3a3a4a",
+        "activityBar.inactiveForeground": "#223d",
         "tab.activeBackground": "#888",
         "tab.activeForeground": "#fff",
         "tab.inactiveBackground": "#666",
@@ -124,13 +124,32 @@
     "tokenColors": [
         {
             "scope": [
+                "entity",
+                "variable",
+                "meta.function-call.arguments"
+            ],
+            "settings": {
+                "foreground": "#001"
+            }
+        },
+        {
+            "scope": [
                 "comment",
                 "comment.block.documentation",
+                "punctuation",
+            ],
+            "settings": {
+                "foreground": "#223",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
                 "punctuation.definition.comment",
                 "punctuation.definition.comment.tsx",
             ],
             "settings": {
-                "foreground": "#333",
+                "foreground": "#334",
                 "fontStyle": ""
             }
         },
@@ -141,21 +160,9 @@
             }
         },
         {
-            "scope": "entity",
-            "settings": {
-                "foreground": "#001"
-            }
-        },
-        {
             "scope": "invalid",
             "settings": {
                 "foreground": "#f00"
-            }
-        },
-        {
-            "scope": "markup",
-            "settings": {
-                "foreground": "#0ff"
             }
         },
         {
@@ -169,14 +176,9 @@
             }
         },
         {
-            "scope": "punctuation",
-            "settings": {
-                "foreground": "#222"
-            }
-        },
-        {
             "scope": [
                 "keyword",
+                "markup.inserted",
                 "storage",
                 "support",
                 "meta.function-call"
@@ -202,13 +204,10 @@
             }
         },
         {
-            "scope": "variable",
-            "settings": {
-                "foreground": "#001"
-            }
-        },
-        {
-            "scope": "keyword.operator",
+            "scope": [
+                "keyword.operator",
+                "meta.brace"
+            ],
             "settings": {
                 "foreground": "#222"
             }
@@ -220,12 +219,6 @@
             }
         },
         {
-            "scope": "meta.brace",
-            "settings": {
-                "foreground": "#222"
-            }
-        },
-        {
             "scope": "variable.language",
             "settings": {
                 "foreground": "#1aff79"
@@ -233,8 +226,9 @@
         },
         {
             "scope": [
+                "markup.deleted",
                 "variable.other.object",
-                "variable.parameter"
+                // "variable.parameter"
             ],
             "settings": {
                 "foreground": "#404"

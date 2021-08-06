@@ -181,6 +181,7 @@
             "scope": [
                 "keyword",
                 "markup.inserted",
+                "storage",
                 "support",
                 "meta.function-call",
                 "punctuation.definition.template-expression",
@@ -196,7 +197,6 @@
                 "storage"
             ],
             "settings": {
-                "foreground": "#112",
                 "fontStyle": "bold"
             }
         },
@@ -223,12 +223,6 @@
             ],
             "settings": {
                 "foreground": "#222"
-            }
-        },
-        {
-            "scope": "keyword.operator.new",
-            "settings": {
-                "foreground": "#a785ff"
             }
         },
         {

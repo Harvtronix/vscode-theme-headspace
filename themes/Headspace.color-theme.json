@@ -136,12 +136,20 @@
         },
         {
             "scope": [
-                "comment",
-                "comment.block.documentation",
                 "punctuation",
             ],
             "settings": {
                 "foreground": "#223",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": [
+                "comment",
+                "comment.block.documentation",
+            ],
+            "settings": {
+                "foreground": "#445",
                 "fontStyle": ""
             }
         },
@@ -181,7 +189,6 @@
             "scope": [
                 "keyword",
                 "markup.inserted",
-                "storage",
                 "support",
                 "meta.function-call",
                 "punctuation.definition.template-expression",
@@ -189,6 +196,16 @@
             ],
             "settings": {
                 "foreground": "#043"
+            }
+        },
+        {
+            "scope": [
+                "keyword.control",
+                "storage"
+            ],
+            "settings": {
+                "foreground": "#112",
+                "fontStyle": "bold"
             }
         },
         {

@@ -147,19 +147,11 @@
             "scope": [
                 "comment",
                 "comment.block.documentation",
+                "punctuation.definition.comment",
+                "punctuation.definition.comment.tsx"
             ],
             "settings": {
                 "foreground": "#445",
-                "fontStyle": ""
-            }
-        },
-        {
-            "scope": [
-                "punctuation.definition.comment",
-                "punctuation.definition.comment.tsx",
-            ],
-            "settings": {
-                "foreground": "#334",
                 "fontStyle": ""
             }
         },

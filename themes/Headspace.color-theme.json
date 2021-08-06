@@ -195,6 +195,7 @@
         },
         {
             "scope": [
+                "keyword.codetag",
                 "keyword.control",
                 "storage"
             ],

@@ -148,7 +148,8 @@
                 "comment",
                 "comment.block.documentation",
                 "punctuation.definition.comment",
-                "punctuation.definition.comment.tsx"
+                "punctuation.definition.comment.tsx",
+                "string.quoted.docstring"
             ],
             "settings": {
                 "foreground": "#445",

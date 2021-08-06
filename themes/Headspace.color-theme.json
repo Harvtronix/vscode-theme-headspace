@@ -197,6 +197,7 @@
             "scope": [
                 "keyword.codetag",
                 "keyword.control",
+                "keyword.operator",
                 "storage"
             ],
             "settings": {
